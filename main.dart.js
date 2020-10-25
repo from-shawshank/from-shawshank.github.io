@@ -9394,7 +9394,7 @@ n=J
 m=C.aU
 l=C.ai
 s=3
-return P.an(a.iu("GET","http://52.79.45.142/chats.json",null),$async$Kz)
+return P.an(a.iu("GET","http://52.79.45.142/mock/chats.json",null),$async$Kz)
 case 3:q=p.h0(o.aX(n.aX(m.m_(0,l.dF(0,c.x),null),"data"),"chatList"),new R.KA(),t.sT).d1(0)
 s=1
 break
@@ -9408,7 +9408,7 @@ n=J
 m=C.aU
 l=C.ai
 s=3
-return P.an(a.iu("GET","http://52.79.45.142/chats/"+b+".json",null),$async$KB)
+return P.an(a.iu("GET","http://52.79.45.142/mock/chats/"+b+".json",null),$async$KB)
 case 3:q=p.h0(o.aX(n.aX(m.m_(0,l.dF(0,d.x),null),"data"),"msgList"),new R.KC(),t.yU).d1(0)
 s=1
 break
